@@ -5,10 +5,6 @@
 ####PBS -q
 ##list - node are nodes: ppn are cpus per node: walltime=walltime
 #PBS -l nodes=1:ppn=8,mem=100gb,walltime=600:00:00
-##email
-#PBS -M akw0018@auburn.edu
-##send email abort; begin; end
-#PBS -m ae
 ##job name
 #PBS -N MakeGenome
 
