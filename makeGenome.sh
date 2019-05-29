@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#### This code was used to map low coverage shotgun genome reads for multiple Sceloporus species
+#### to the chromosome-level assembly of Sceloporus undulatus to generate draft genomes.
+#### Note that this will generate 1:1 mappings of one genome onto the reference and does not
+#### reflect changes in chromosome structure.
+
+#### This was used for [[[Westfall et al.]]].
+
+
 #----QSUB INFO----#
 ##choose queue
 ####PBS -q
